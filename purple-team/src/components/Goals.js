@@ -1,14 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
-import styles from './App.module.scss';
+import logo from '../img/logo.svg';
+// import styles from './App.module.scss';
+import '../css/Goals.css'
 
-const App = () =>
+
+const Goals = () =>
     (
-        <div className={styles.page}>
-            <h1 className={styles.header}> Wspólny cel</h1>
-            <section className={styles.wrapper}>
-                <img src={logo} className={styles.logo} alt="react logo"/>
-                <section className={styles.content}>
+        <div className="page">
+            <h1 className="header"> Wspólny cel</h1>
+            <section className="wrapper">
+                <img src={logo} className="logo" alt="react logo"/>
+                <section className="content">
                     <p>
                         Naszym głównym celem jest poznanie Reacta, poprzez tworzenie projektu budowanego przez cały
                         zespół.
@@ -24,4 +26,4 @@ const App = () =>
     );
 
 
-export default App;
+export default Goals;
