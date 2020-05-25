@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import StartView from './StartView.js'
+import FutureProject from './FutureProjects';
 import '../css/App.css';
 
 class App extends Component {
@@ -10,8 +11,7 @@ class App extends Component {
         <header className="navigation"></header>
         <main>
           <StartView />
-
-
+          <FutureProject/>
         </main>
 
       </div>
