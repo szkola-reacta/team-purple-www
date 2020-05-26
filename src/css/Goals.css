@@ -1,0 +1,72 @@
+.goalsWrapper{
+    position: relative;
+    width: 100%;
+}
+
+
+
+
+.page {
+    position: relative;
+    text-align: center;
+    background-color: #0c001c;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.headerH1 {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: aliceblue;
+    font-size: 32px;
+   
+}
+
+.sectionWrapper {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-around;
+    width: 72vw;
+    
+}
+
+.content{
+    height: 100%;
+    margin: 80px;
+    font-size: 20px;
+    color: white;
+    width: 30vw;
+    text-align: justify;
+}
+
+.logo {
+    margin: 30px 50px;
+    height: 40vh;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .logo {
+        animation: logo infinite 20s linear;
+    }
+}
+
+
+@keyframes logo {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
