@@ -1,6 +1,8 @@
+
 import React, { Component } from 'react';
 import StartView from './StartView.js'
 import FutureProject from './FutureProjects';
+import Footer from './Footer.js';
 import '../css/App.css';
 
 class App extends Component {
@@ -12,11 +14,12 @@ class App extends Component {
         <main>
           <StartView />
           <FutureProject/>
+          <Footer />
         </main>
 
       </div>
     );
   }
 }
-
 export default App;
+
