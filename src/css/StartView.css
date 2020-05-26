@@ -1,4 +1,5 @@
 .mainWrapper{
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,8 +18,13 @@ section.members{
 }
 
 .mainWrapper h1{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
 color: aliceblue;
 margin-bottom: 50px;
+font-size: 32px;
 }
 
 div.singleMember{
