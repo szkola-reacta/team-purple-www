@@ -1,1 +1,3 @@
-(U+1F33B) OUR TEAM SQUAD  
+🌻 OUR TEAM SQUAD 🌻
+
+(	&#x1F49F;) 
